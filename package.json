@@ -1,0 +1,19 @@
+{
+  "name": "grammy-flow-manager",
+  "version": "1.0.0",
+  "description": "A middleware for Grammy Telegram bot to manage chat flows with pre-configured steps",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -sourcemap -p ./tsconfig.json",
+    "run": "node dist/src/index.js",
+    "start": "npm run build && npm run run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  }
+}
